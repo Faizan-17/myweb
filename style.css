@@ -350,6 +350,9 @@ Footer Section
 	.footer-col{
 		width: 100%;
 		
-	}    
+	}  
+	.menu ul li a{
+		padding: 0px 3px 0px 3px;
+	}
  
 }
