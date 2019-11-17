@@ -1,0 +1,355 @@
+/*
+==============
+Globel Style
+==============
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Arbutus Slab', serif;
+}
+h1{
+	font-size: 3em;
+}
+h2{
+	font-size: 2.3em;
+}
+h3{
+	font-size: 1.5em;
+}
+/*
+=============
+Hero Section
+=============
+*/
+
+.hero{
+	background: linear-gradient(to bottom right, #2196F3, #009683);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.menu{
+	width: 100%;
+	background-color: yellow;
+	height: 40px;
+}
+
+.menu ul{
+	text-align: center;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline;
+}
+.menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	line-height: 40px;
+	padding: 0px 16px 0px 16px;
+}
+
+/*
+=============
+Srevices Section
+=============
+*/
+.services{
+	width: 100%;
+	background-color: hsl(0.0%,90%);
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;  
+}
+.col-wrapper{
+	width: 90%;
+	margin: : auto;
+	padding-top: 50px; 
+	margin-left: 50px;
+
+}
+.services-col{
+	width: 33.33%;
+	float: left; 
+	padding: 10px 30px 10px 30px;
+
+
+}
+.services-col img{
+	width: 80px;
+	max-width: 100%;
+}
+.col-wrapper::after{
+	clear: both;
+	display: table;
+	content:"";
+}
+
+/*
+=================
+About Us Section
+=================
+*/
+.aboutus{
+	padding-top: 100px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-image: url(img/background.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+.aboutus.content{
+	width: 80%;
+	margin: auto;
+	background-color: rgba(0,0,0,0.05);
+}
+.about-btn{
+	background: rgba(0,0,0,0.01);
+	padding: 10px 15px 10px 15px;
+	margin-top: 30px;
+	border: none;
+	outline: 2px solid blue;
+	cursor: pointer;
+	color: white;
+}
+
+
+/*
+=================
+Team Section
+=================
+*/
+
+.team{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: hsl(0, 0%, 95%);
+	width: 100%;
+	text-align: center;
+}
+
+.team-wrapper{
+	width: 90%;
+	padding-top: 50px;
+	margin: auto;
+}
+
+.col-team{
+	width: 33.33%;
+	float: left;
+	padding: 10px 30px 10px 30px;
+}
+
+.col-team img{
+	width: 80px;
+	max-width: 100%;
+	padding: 5px;
+}
+
+.tcol{
+	max-width: 200px;
+	max-height: 170px;
+	border: 3px solid rgba(0,0,0,0.05);
+	box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.05);
+	padding: 10px;
+}
+
+.team-wrapper::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/*
+=================
+Contact Section
+=================
+*/
+
+.cotact{
+	width: 100%;
+	background-color: hsl(0, 0%, 95%);
+}
+.cta{
+	background-color: yellow;
+	width: 100%;
+	padding: 30px 5px 30px 5px; 
+	text-align: center;
+
+}
+.cta-col{
+	width: 33.33%;
+	float: left;
+
+}
+.cta-col{
+	display: inline;
+}
+
+.cta::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/*
+=================
+contact main Section
+=================
+*/
+.background{
+	background-color: hsl(0, 0%, 95%);
+}
+.contactinfo{
+	width: 100%;
+	padding: 30px 5px 30px 5px;
+	text-align: center;
+
+}
+
+.contactinfo::after{
+	content: "";
+     display: table;
+     clear: both;
+
+}
+
+.contactinfo-col1{
+	width: 35%;
+	float: left;
+	text-align: center;
+	padding: 30px 5px 30px 5px;
+
+}
+
+.contactinfo-col2{
+	width: 65%;
+	padding: 30px 5px 30px 5px;
+	float: left;
+	margin-top: 20px; 
+}
+
+
+/*
+===================
+Form Style Section
+===================
+*/
+.form-col{
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+	text-align: left;
+}
+
+.msg{
+	width: 100%;
+	height: 250px;
+}
+
+.fname, .femail{
+	width: 100%;
+	height: 35px;
+	padding: 0px 5px 0px 5px;
+	background-color: #fff;
+	border: none;
+	outline: none;
+}
+
+.sendbtn{
+	background-color: yellow;
+	border: none;
+	outline: 1px solid black;
+	padding: 10px 30px 10px 30px;
+	margin-top: 10px;
+	cursor: pointer;
+}	
+
+ 	
+
+
+/*
+==============
+Footer Section
+==============
+*/
+.footer{
+	background-color: #1b181f;
+	color: #eee;
+	width: 100%;
+	padding: 50px 10px 50px 10px;
+}
+.footer::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+.footer h2{
+	color: white;
+	margin-bottom:  30px;
+}
+.footer-col{
+	width: 33.33%;
+	float: left;
+	padding: 5px 10px 5px 10px;
+
+}
+
+.login{
+	text-align: center;
+	float: right;
+	margin-right: 2px;
+	background-color: blue;
+
+}
+
+
+/*CSS Media Queries*/
+
+@media screen and (max-width: 500px){
+	.login{
+		width: 100%;
+	}
+	
+	.services-col{
+		width: 100%;
+		padding-top: 80px;
+
+	}
+	.col-team{
+		width: 100%;
+		padding-top: 80px;
+	}
+	.cta-col{
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom:25px; 
+	}
+	.contactinfo-col1{
+		width:100%;
+
+	}
+	.contactinfo-col2{
+		width: 100%;
+	}
+	.form-col{
+		width: 100%;
+	}
+	.footer-col{
+		width: 100%;
+		
+	}    
+ 
+}
